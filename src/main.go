@@ -10,13 +10,14 @@ import (
 	// //outter
 	"github.com/go-git/go-git/v5"
 	. "github.com/go-git/go-git/v5/_examples"
+	"github.com/go-git/go-git/v5/plumbing"
 )
 
-var GIT_URL string = "https://github.com/Nanfengzhiwo1/gitpython_AutoPull.git"
+var GIT_URL string = "https://github.com/Nanfengzhiwo1/Model_ShenJingXin.git"
 var PATH, _ = os.Getwd()
 var PARENT_PATH string = filepath.Dir(PATH)
 var COMMON_PARENT_PATH string = strings.Replace(PARENT_PATH, "\\", "/", -1)
-var GIT_BRANCH string = "main"
+var GIT_BRANCH string = "Model_1.0.1"
 
 func main() {
 	// CheckArgs("<url>", "<directory>", "<github_username>", "<github_password>")
@@ -31,9 +32,9 @@ func main() {
 		// 	Username: username,
 		// 	Password: password,
 		// },
-		URL:        url,
-		RemoteName: branch,
-		Progress:   os.Stdout,
+		URL:           url,
+		ReferenceName: plumbing.ReferenceName(branch),
+		Progress:      os.Stdout,
 	})
 	CheckIfError(err)
 
