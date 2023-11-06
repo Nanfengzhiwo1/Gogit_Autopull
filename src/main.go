@@ -13,11 +13,14 @@ import (
 	"github.com/go-git/go-git/v5/plumbing"
 )
 
+// input your repo_url
 var GIT_URL string = "https://github.com/Nanfengzhiwo1/Model_ShenJingXin.git"
+
+// input your repo_branch
+var GIT_BRANCH string = "Model_1.0.1"
 var PATH, _ = os.Getwd()
 var PARENT_PATH string = filepath.Dir(PATH)
 var COMMON_PARENT_PATH string = strings.Replace(PARENT_PATH, "\\", "/", -1)
-var GIT_BRANCH string = "Model_1.0.1"
 
 func main() {
 	// CheckArgs("<url>", "<directory>", "<github_username>", "<github_password>")
