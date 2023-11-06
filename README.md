@@ -2,17 +2,12 @@
 - Go Version: go1.21.3 windows/amd64
 
 # How to Start
-1. you should do this first in Terminal:`pip install p4python`if (module)P4 isn't exist.
-2. then you need to modify the parameters to your own,like this:
-![2{X`LGJK_ZHT6WCON8}I`US](https://github.com/Nanfengzhiwo1/p4python_AutoPull/assets/107869748/cdfaa7df-fd1a-45ca-a1f7-911ffac172d7)
-3. run `python 1.py`
-![image](https://github.com/Nanfengzhiwo1/p4python_AutoPull/assets/107869748/414a04d1-a287-4e87-ad15-49b994c33677)
-
+1. then you need to modify the parameters to your own,like this:
+![image](https://github.com/Nanfengzhiwo1/gogit_Autopull/assets/107869748/6569cc99-28d0-4475-ba09-573703aaa458)
+2. Go to *main.go* localpath,and build it for create *build.exe* by cmd:**go build main.go**
+![image](https://github.com/Nanfengzhiwo1/gogit_Autopull/assets/107869748/aa55dc6e-c31f-4d74-90a8-5a5830c5c7d3)
+3. run *main.exe*
 # Preview
-![image](https://github.com/Nanfengzhiwo1/p4python_AutoPull/assets/107869748/37054da3-bd99-4ab8-bdc5-779a93db0fcd)
-
-> Click **more workspace**,you will see the workspace
-
-![image](https://github.com/Nanfengzhiwo1/p4python_AutoPull/assets/107869748/b400714e-d8df-4104-a27a-0c8342d47b8f)
+![image](https://github.com/Nanfengzhiwo1/gogit_Autopull/assets/107869748/b1a703aa-a1e8-494d-8f87-60a935114c77)
 
 
